@@ -1,5 +1,3 @@
-import './style.scss'
-
 function NoPage() {
     return ( 
         <h1>404 NOT FOUND</h1>
