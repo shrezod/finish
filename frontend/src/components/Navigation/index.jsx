@@ -12,7 +12,7 @@ function Navigation() {
             <Outlet />
         </div>
         <nav className='nav-first'>
-            <div className="nav-left">
+            <div className="nav-to">
                 <h1>
                     <Link to={"/"}>
                         <img src={img1} alt="AirBallon" />

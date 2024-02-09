@@ -1,9 +1,9 @@
 import { useLocation, Route, Routes } from 'react-router-dom'
 import Navigation from "./Navigation"
 import About from "./About"
-import Excursion from "./Excursion"
-import Kabinet from "./Kabinet"
-import First from "./First"
+import Excursion from "./Exk"
+import Kabinet from "./Dom"
+import First from "./main"
 import NoPage from "./NoPage"
 
 
