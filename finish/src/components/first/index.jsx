@@ -5,9 +5,8 @@ import { Link } from 'react-router-dom';
 import NewExcurc from '../NewExcurs';
 import About from '../About';
 import Galereya from '../Galereya';
-
-
-
+import ContactsForm from '../ContactsForm';
+import Reviews from '../Reviews';
 
 function First() {
     return ( 
@@ -27,13 +26,21 @@ function First() {
                 <img src={play2} alt="play2" />
             </div>
             </div>
-
-         <NewExcurc/>
-         
-         <br />
-            <About/>
+           <NewExcurc/>
+           <br />
+           <br />
+           <br />
             <br />
+            <About/> 
             <Galereya/>
+            <br />
+            <br />
+            <br />
+            
+
+            <Reviews/>
+            <br />
+            <ContactsForm/>
             </div>
      );
 }

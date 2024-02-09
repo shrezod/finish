@@ -1,35 +1,36 @@
-import "./style.scss"
-import { Link } from "react-router-dom"
-import FacebookColor from "../../assets/icons/facebookColor.png"
-import WKColor from "../../assets/icons/vkColor.png"
-import InstagramColor from "../../assets/icons/instColor.png"
-import Logo from "../../assets/icons/logoColor.png"
-import Mail from "../../assets/icons/mail.png"
-import Telegram from "../../assets/icons/tg.png"
-import Whatsapp from "../../assets/icons/wh.png"
-
+import './style.scss'
+import air from "../../assets/images/Air2.png";
+import whatsapp from "../../assets/images/whatsapp.png";
+import gg from "../../assets/images/gg.png";
+import mail from "../../assets/images/mail.png";
+import vk from "../../assets/images/Vk.png";
+import ins from "../../assets/images/instagram..png";
+import fac from "../../assets/images/Facebook.png";
+import { Link } from 'react-router-dom';
 
 function Footer() {
     return (
         <div className="footer-wrapper">
-            <Link to={"/"}><img src={Logo} alt="Logo-color" /></Link>
+            <Link to={"/"}>
+                <img src={air} alt="air"/>
+                </Link>
             <div className="links">
                 <Link to="/">Главная</Link>
                 <Link to="/excursions">Экскурсии</Link>
                 <Link to="/">Личный кабинет</Link>
             </div>
-            <div className="contants">
-                <img src={Whatsapp} alt="whatsapp-icon" />+7 964 944 18 74 <br />
-                <img src={Telegram} alt="telegram-icon" />+7 918 919 98 28 <br />
-                <img src={Telegram} alt="telegram-icon" />Телеграм-бот PeroTravel <br />
+            <div className="number">
+                <img src={whatsapp} alt="whatsapp" />+7 964 944 18 74 <br />
+                <img src={gg} alt="tt" />+7 918 919 98 28 <br />
+                <img src={gg} alt="tt" />Телеграм-бот PeroTravel <br />
             </div>
-            <div className="icons">
-                <div className="mail">
-                    <img src={Mail} alt="mail-icon" /> <span>office@perotravel.ru</span>
+            <div className="images">
+                <div className="email">
+                    <img src={mail} alt="" /> <span>office@perotravel.ru</span>
                 </div>
-                <Link to={"https://vk.com/"}><img src={WKColor} alt="Wk" /></Link>
-                <Link to={"https://www.instagram.com/vdf_3.3"}><img src={InstagramColor} alt="Instagram" /></Link>
-                <Link to={"https://vk.com/"}><img src={FacebookColor} alt="Facebook" /></Link>
+                <Link ><img src={vk} alt="Vk" /></Link>
+                <Link><img src={ins} alt="Instagram" /></Link>
+                <Link><img src={fac} alt="Facebook" /></Link>
             </div>
         </div>
     );
