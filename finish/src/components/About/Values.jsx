@@ -1,12 +1,11 @@
 import valuesData from '../../db/values.json'
 import Bus from "../../assets/images/Bus.png"
 import Jip from "../../assets/images/Jip.png"
-import Yaxta from "../../assets/images/Yaxta.png"
 import Kanon from "../../assets/images/Kanon.png"
 import ValuesItem from "./ValuesItem.jsx"
 
 function Values(props) {
-    const images = [Bus, Jip, Yaxta, Kanon]
+    const images = [Bus, Jip, Kanon]
 
     return (
         <div className="values-wrapper">
