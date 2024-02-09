@@ -1,5 +1,7 @@
 import './style.scss'
 import about from "../../assets/images/About.png";
+import Values from './Values';
+import {Link} from "react-router-dom"
 function About() {
     return (  
         <div className="first-content">
@@ -15,6 +17,18 @@ function About() {
                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
                     <br />
                 </div>
+            </div>
+            <br />
+            <br />
+            <div className="third-content">
+                <h1>Виды экскурсий</h1>
+                <Values />
+                <br />
+                <p className="parag">Выбирайте на нашем сайте экскурсию, которая подходит именно вам и записывайтесь онлайн без очередей, просто и быстро!</p>
+                <Link to={"/excursions"}>
+                <button>К экскурсиям ➡</button>
+                </Link>
+                
             </div>
         </div>
     );
