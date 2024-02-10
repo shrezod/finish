@@ -2,10 +2,10 @@ import './style.scss'
 import play1 from "../../assets/images/play1.png";
 import play2 from "../../assets/images/play2.png";
 import { Link } from 'react-router-dom';
-import NewExcurc from '../NewExл';
+import NewExcurc from '../NewExcurs';
 import About from '../About';
-import Galereya from '../photo';
-import ContactsForm from '../Contacts';
+import Galereya from '../Galereya';
+import ContactsForm from '../ContactsForm';
 import Reviews from '../Reviews';
 
 function First() {
