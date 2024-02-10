@@ -26,7 +26,7 @@ function Contacts() {
 
     function sendEMailJS_Fn(e) {
         e.preventDefault()                                                   
-        emailjs.send('service_5a52nkx', 'template_meqjc4m', templateParams, 'ZjF7BDfjSmoc1S45L')
+        emailjs.send('service_ymv8hgn', 'template_gzhw5d5', templateParams, '3HB9qa4M2SQc2pglx')
         .then((response) =>{ toast.success('SUCCESS!',{ theme: "dark" });},(err) => {toast.error('FAILED...', { theme: "dark" }); 
         });
     }

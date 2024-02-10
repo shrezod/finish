@@ -20,8 +20,8 @@ function Footer() {
                 <Link to="/">Личный кабинет</Link>
             </div>
             <div className="number">
-                <img src={whatsapp} alt="whatsapp" />+7 964 944 18 74 <br />
-                <img src={gg} alt="tt" />+7 918 919 98 28 <br />
+                <img src={whatsapp} alt="whatsapp" />+998 99 026 04 67<br />
+                <img src={gg} alt="tt" />+998 33 026 04 67 <br />
                 <img src={gg} alt="tt" />Телеграм-бот PeroTravel <br />
             </div>
             <div className="images">
