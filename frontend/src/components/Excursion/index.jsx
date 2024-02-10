@@ -1,5 +1,5 @@
-function Excursion() {
+function Exc() {
     return (<></>  );
 }
 
-export default Excursion;
+export default Exc;

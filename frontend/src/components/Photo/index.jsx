@@ -8,7 +8,7 @@ import galery6 from "../../assets/images/Galery6.png";
 import galery7 from "../../assets/images/Galery7.png";
 import galery8 from "../../assets/images/Galery8.png";
 
-function Galereya() {
+function Photo() {
     return ( 
         <div className="galery-wrapper">
         <div className="top">
@@ -39,4 +39,4 @@ function Galereya() {
             );
         }
 
-export default Galereya;
+export default Photo;

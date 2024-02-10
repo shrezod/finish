@@ -1,5 +1,5 @@
-function Kabinet() {
+function Dom() {
     return (  <></>);
 }
 
-export default Kabinet;
+export default Dom;

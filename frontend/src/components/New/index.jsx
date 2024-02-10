@@ -12,7 +12,7 @@ import 'swiper/scss';
 import 'swiper/scss/pagination';
 
 
-function NewExcurc(props) {
+function New(props) {
     return ( 
         <div className="main-excurs">
          <div className="second-excurs">
@@ -203,4 +203,4 @@ function NewExcurc(props) {
      );
 }
 
-export default NewExcurc;
+export default New;

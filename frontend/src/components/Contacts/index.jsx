@@ -4,7 +4,7 @@ import emailjs from '@emailjs/browser';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-function ContactsForm() {
+function Contacts() {
     const [form, setForm] = useState({
         name: "",
         email: "",
@@ -58,4 +58,4 @@ function ContactsForm() {
     );
 }
 
-export default ContactsForm;
+export default Contacts;
