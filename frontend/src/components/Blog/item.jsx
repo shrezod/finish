@@ -11,7 +11,6 @@ function Item(props) {
         navigate('/blog')
 
     }
-
     return (
         <>
             <div className={burgerMenuOpened ? "burger-menu-wrapper opened" : "burger-menu-wrapper"}>
@@ -30,8 +29,6 @@ function Item(props) {
                         <img src={logo} alt="" />
                     </Link>
                 </div>
-
-
                 <div className="nav-links">
                     <Link onClick={goToTeamsHash} to={'/about'}>
                         Главная
@@ -43,18 +40,10 @@ function Item(props) {
                         Личный кабинет
                     </Link>
                 </div>
-
-
-
             </div>
             <div className="travel-text">
                 <h2>НАШИ ЭКСКУРСИИ</h2>
             </div>
-
-
-
-
-
         </>
     );
 }

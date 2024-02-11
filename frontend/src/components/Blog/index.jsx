@@ -77,16 +77,16 @@ function Blog() {
                                    </div>
                                    <div className="div">
                                         <input type="text" value={"1 чел."} />
-                                        <input type="text" value={"1 чел."} />
-                                        <input type="text" value={"1 чел."} />
-                                        <input type="text" value={"1 чел."} />
-                                        <input type="text" value={"1 чел."} />
-                                        <input type="text" value={"1 чел."} />
-                                        <input type="text" value={"1 чел."} />
-                                        <input type="text" value={"1 чел."} />
-                                        <input type="text" value={"1 чел."} />
-                                        <input type="text" value={"1 чел."} />
-                                        <input type="text" value={"1 чел."} />
+                                        <input type="text" value={"2 чел."} />
+                                        <input type="text" value={"3 чел."} />
+                                        <input type="text" value={"4 чел."} />
+                                        <input type="text" value={"5 чел."} />
+                                        <input type="text" value={"6 чел."} />
+                                        <input type="text" value={"7 чел."} />
+                                        <input type="text" value={"8 чел."} />
+                                        <input type="text" value={"9 чел."} />
+                                        <input type="text" value={"10 чел."} />
+                                        <input type="text" value={"10 больше."} />
                                    </div>
                               </div>
                               <div className="radio-input">
@@ -147,7 +147,7 @@ function Blog() {
                                    <div className="price-content">
                                         <div><span><img src={frame} alt="" /></span>1618₽</div>
                                         <div><span><img src={frame} alt="" /></span>1412₽</div>
-                                        <div><span><img src={time} alt="" /></span>2,5 hours</div>
+                                        <div><span><img src={time} alt="" /></span>2,5 час</div>
                                    </div>
 
                                    <div className="text-content">
@@ -174,7 +174,7 @@ function Blog() {
                                    <div className="price-content">
                                         <div><span><img src={frame} alt="" /></span>1618₽</div>
                                         <div><span><img src={frame} alt="" /></span>1412₽</div>
-                                        <div><span><img src={time} alt="" /></span>2,5 hours</div>
+                                        <div><span><img src={time} alt="" /></span>2,5 час</div>
                                    </div>
 
                                    <div className="text-content">
@@ -200,7 +200,7 @@ function Blog() {
                                    <div className="price-content">
                                         <div><span><img src={frame} alt="" /></span>1618₽</div>
                                         <div><span><img src={frame} alt="" /></span>1412₽</div>
-                                        <div><span><img src={time} alt="" /></span>2,5 hours</div>
+                                        <div><span><img src={time} alt="" /></span>2,5 час</div>
                                    </div>
 
                                    <div className="text-content">
@@ -224,7 +224,7 @@ function Blog() {
                                    <div className="price-content">
                                         <div><span><img src={frame} alt="" /></span>1618₽</div>
                                         <div><span><img src={frame} alt="" /></span>1412$₽</div>
-                                        <div><span><img src={time} alt="" /></span>2,5 hours</div>
+                                        <div><span><img src={time} alt="" /></span>2,5 час</div>
                                    </div>
 
                                    <div className="text-content">
@@ -248,7 +248,7 @@ function Blog() {
                                    <div className="price-content">
                                         <div><span><img src={frame} alt="" /></span>1618₽</div>
                                         <div><span><img src={frame} alt="" /></span>1412₽</div>
-                                        <div><span><img src={time} alt="" /></span>2,5 hours</div>
+                                        <div><span><img src={time} alt="" /></span>2,5 час</div>
                                    </div>
 
                                    <div className="text-content">
