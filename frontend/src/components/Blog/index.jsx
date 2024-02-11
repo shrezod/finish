@@ -145,8 +145,8 @@ function Blog() {
                                         <b>Золотое кольцо Абхазии (из Адлера)</b>
                                    </div>
                                    <div className="price-content">
-                                        <div><span><img src={frame} alt="" /></span>1618$</div>
-                                        <div><span><img src={frame} alt="" /></span>1412$</div>
+                                        <div><span><img src={frame} alt="" /></span>1618₽</div>
+                                        <div><span><img src={frame} alt="" /></span>1412₽</div>
                                         <div><span><img src={time} alt="" /></span>2,5 hours</div>
                                    </div>
 
@@ -172,8 +172,8 @@ function Blog() {
                                         <b>Золотое кольцо Абхазии (из Адлера)</b>
                                    </div>
                                    <div className="price-content">
-                                        <div><span><img src={frame} alt="" /></span>1618$</div>
-                                        <div><span><img src={frame} alt="" /></span>1412$</div>
+                                        <div><span><img src={frame} alt="" /></span>1618₽</div>
+                                        <div><span><img src={frame} alt="" /></span>1412₽</div>
                                         <div><span><img src={time} alt="" /></span>2,5 hours</div>
                                    </div>
 
@@ -198,8 +198,8 @@ function Blog() {
                                         <b>Золотое кольцо Абхазии (из Адлера)</b>
                                    </div>
                                    <div className="price-content">
-                                        <div><span><img src={frame} alt="" /></span>1618$</div>
-                                        <div><span><img src={frame} alt="" /></span>1412$</div>
+                                        <div><span><img src={frame} alt="" /></span>1618₽</div>
+                                        <div><span><img src={frame} alt="" /></span>1412₽</div>
                                         <div><span><img src={time} alt="" /></span>2,5 hours</div>
                                    </div>
 
@@ -222,8 +222,8 @@ function Blog() {
                                         <b>Золотое кольцо Абхазии (из Адлера)</b>
                                    </div>
                                    <div className="price-content">
-                                        <div><span><img src={frame} alt="" /></span>1618$</div>
-                                        <div><span><img src={frame} alt="" /></span>1412$</div>
+                                        <div><span><img src={frame} alt="" /></span>1618₽</div>
+                                        <div><span><img src={frame} alt="" /></span>1412$₽</div>
                                         <div><span><img src={time} alt="" /></span>2,5 hours</div>
                                    </div>
 
@@ -246,8 +246,8 @@ function Blog() {
                                         <b>Золотое кольцо Абхазии (из Адлера)</b>
                                    </div>
                                    <div className="price-content">
-                                        <div><span><img src={frame} alt="" /></span>1618$</div>
-                                        <div><span><img src={frame} alt="" /></span>1412$</div>
+                                        <div><span><img src={frame} alt="" /></span>1618₽</div>
+                                        <div><span><img src={frame} alt="" /></span>1412₽</div>
                                         <div><span><img src={time} alt="" /></span>2,5 hours</div>
                                    </div>
 
