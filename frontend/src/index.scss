@@ -1,6 +1,23 @@
-@import "./assets/style/settings";
-body{
-    width: 100%;
-    overflow:visible;
-   
+@import './assets/styles/settings';
+body {
+    background-color: white;
+    color: $dark;
 }
+
+::-webkit-scrollbar {
+    background-color: $blue;
+    border-radius: 10px;
+    width: 14px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: $lightBlue;
+    border-radius: 20px;
+    width: 8px;
+    border: 4px solid $blue;
+
+    &:hover {
+        background-color: $lighterBlue;
+    }
+}
+

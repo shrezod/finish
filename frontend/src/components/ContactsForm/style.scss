@@ -1,0 +1,82 @@
+@import '../../assets/styles/settings';
+
+.contacts-form-wrapper {
+    background-image: url('../../assets/images/Rectangle-27.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+   
+    form {
+        background-color: rbga(255, 0, 0, 0.4);
+        backdrop-filter: blur(10px);
+        opacity: 1;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 230px;
+        width: 750px;
+
+       
+
+        button {
+            @extend %info-btn;
+            margin-top: 80px;
+            margin-left: 120px;
+
+        }
+
+        h3 {
+            padding-top: 25%;
+            padding-left: 60px;
+            font-size: 30px;
+            color: snow;
+            font-family: 'Montserrat';
+        }
+
+        span {
+            position: absolute;
+            left: 20px;
+            top: 230px;
+            color: yellow;
+
+
+        }
+
+
+        .div {
+            display: flex;
+            flex-direction: column;
+            padding-top: 20%;
+        }
+
+        .hr {
+            width: 80%;
+            margin: 0 auto;
+            border-bottom: solid 1px snow;
+        }
+
+        input {
+            font-family: 'Montserrat';
+            background-color: transparent;
+            border-bottom: solid 1px snow;
+            border: none;
+            outline: none;
+            color: $lightBlue;
+            font-size: 15px;
+            padding: 20px;
+
+            &::placeholder {
+                color: snow;
+                font-weight: 300;
+                font-size: 15px;
+            }
+
+            hr {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}

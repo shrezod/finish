@@ -1,39 +1,73 @@
 import './style.scss'
-import air from "../../assets/images/Air2.png";
-import whatsapp from "../../assets/images/whatsapp.png";
-import gg from "../../assets/images/gg.png";
-import mail from "../../assets/images/mail.png";
-import vk from "../../assets/images/Vk.png";
-import ins from "../../assets/images/instagram..png";
-import fac from "../../assets/images/Facebook.png";
-import { Link } from 'react-router-dom';
+import React, { Link } from 'react-router-dom'
+import IconWH from '../../assets/icons/wh 1f.png'
+import IconTG from '../../assets/icons/tg 2f.png'
+import IconEl from '../../assets/icons/mail 1f.png'
+import FooterFace from '../../assets/icons/facebook 1f.png'
+import FooterInst from '../../assets/icons/inst 1f.png'
+import FooterVk from '../../assets/icons/vk 1f.png'
+import ColorLogo from "../../assets/icons/logo_color 1f.png"
 
-function Footer() {
+export default function Footer() {
     return (
-        <div className="footer-wrapper">
-            <Link to={"/"}>
-                <img src={air} alt="air"/>
+        <div className='footer-wrapper'>
+            <div className="footer-content-1">
+                <Link path={'/about'}>
+                    <img src={ColorLogo} alt="" />
                 </Link>
-            <div className="links">
-                <Link to="/">Главная</Link>
-                <Link to="/excursions">Экскурсии</Link>
-                <Link to="/">Личный кабинет</Link>
             </div>
-            <div className="number">
-                <img src={whatsapp} alt="whatsapp" />+998 99 026 04 67<br />
-                <img src={gg} alt="tt" />+998 33 026 04 67 <br />
-                <img src={gg} alt="tt" />Телеграм-бот PeroTravel <br />
+            <div className="footer-content-2">
+                <Link to='/about'>
+                    Главная
+                </Link>
+                <br />
+                <Link to={'/blog'}>
+                    Экскурсия
+                </Link>
+                <br />
+                <Link to={'/'}>
+                    Личный кабинет
+                </Link>
             </div>
-            <div className="images">
-                <div className="email">
-                    <img src={mail} alt="" /> <span>office@perotravel.ru</span>
+            <div className="footer-content-3">
+                <Link>
+                <div>
+                    <img src={IconWH} alt="" />
+                    <span>+7 964 944 18 74</span>
                 </div>
-                <Link ><img src={vk} alt="Vk" /></Link>
-                <Link><img src={ins} alt="Instagram" /></Link>
-                <Link><img src={fac} alt="Facebook" /></Link>
+                </Link>
+
+                <Link>
+                <div>
+                    <img src={IconTG} alt="" />
+                    <span>+7 964 944 18 74</span>
+                </div>
+                </Link>
+                <Link>
+                <div>
+                    <img src={IconTG} alt="" />
+                    <span>+7 964 944 18 74</span>
+                </div>
+                </Link>
+                <Link>
+                <div>
+                    <img src={IconEl} alt="" />
+                    <span>Telegram bot PERO-TRAVEL</span>
+                </div>
+                </Link>
+            </div>
+            <div className="footer-content-4">
+                <span>
+                    <img src={IconEl} alt="" />
+                    office@perotravel.com
+                </span>
+                <div className="social-media">
+                    <img className='img-1' src={FooterVk} alt="" />
+                    <img className='img-2' src={FooterInst} alt="" />
+                    <img className='img-3' src={FooterFace} alt="" />
+                </div>
+
             </div>
         </div>
-    );
+    )
 }
-
-export default Footer;

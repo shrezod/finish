@@ -1,36 +1,31 @@
 import './style.scss'
-import img1 from "../../assets/images/img1.png"
-import { Link, Outlet } from "react-router-dom"
-import Footer from '../Footer';
-
-
+import { Outlet } from 'react-router-dom'
+import Nav from './Nav.jsx'
+import { useState } from 'react'
 
 function Navigation() {
+    const [burgerMenuOpened, setBurgerMenuOpen] = useState(false)
+
     return (
+
         <div>
-        <div className="outlet">
-            <Outlet />
+            <div className={burgerMenuOpened ? "burger-menu-wrapper opened" : "burger-menu-wrapper"}>
+                <div className="top"></div>
+                <div className="middle"></div>
+                <div className="bottom"></div>
+            </div>
+            <input
+                id='burger-menu-toggler' 
+                type="checkbox"
+                onClick={(e) => {setBurgerMenuOpen(e.target.checked)}}
+                />
+                <Nav />
+            <div id='outlet'>
+                <Outlet />
+            </div>
+
         </div>
-        <nav className='nav-first'>
-            <div className="nav-left">
-                <h1>
-                    <Link to={"/"}>
-                        <img src={img1} alt="AirBallon" />
-                    </Link>
-                </h1>
-            </div>
-            <div className="nav-right">
-                <Link to="/">Главная</Link>
-                <Link to="/excursions">Экскурсии</Link>
-                <Link to="/kabinet">Личный кабинет</Link>
-            </div>
-        </nav>
-   <div>
-     <Footer/>
-   </div>
-        
-    </div>
-      );
+    )
 }
 
 export default Navigation;

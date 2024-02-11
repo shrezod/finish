@@ -1,0 +1,48 @@
+@import '../../../assets/styles/settings';
+
+.carousel2 {
+    margin: 80px;
+
+    h2{
+        color: $lightBlue;
+        margin-bottom: 100px;
+        margin-left: 30px;
+   }
+
+    .main-card {
+        display: flex;
+    }
+
+    .card {
+        background-color: rgb(138, 138, 138, 0.3);
+        margin-left: 10px;
+        padding: 30px;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: row;
+        height: 350px;
+
+       .text-slides{
+           margin-left: 15px;
+       }
+    }
+    .slick-arrow.slick-prev::before {
+        position: absolute;
+        left: 0;
+        top: 210px;
+        width: 40px;
+        color: black;
+        font-size: 70px;
+        height: 40px;
+    }
+    .slick-arrow.slick-next::before {
+        position: absolute;
+        left: 0;
+        top: 210px;
+        left: -1720px;
+        width: 40px;
+        color: black;
+        font-size: 70px;
+        height: 40px;
+    }
+}

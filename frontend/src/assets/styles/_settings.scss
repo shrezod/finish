@@ -1,0 +1,48 @@
+@use './resets';
+@import "./samples";
+
+$lighterBlue: #24f8ff;
+$lightBlue: #14bbc0;
+$blue: #008287;
+$gray: #d4d4d4;
+$gray-2: #EDEDED;
+
+$yellow: #FFC700;
+$dark: #141414;
+
+$large-screen: 1100px;
+$medium-screen: 855px;
+$small-screen: 600px;
+
+%link {
+    @extend %link-style
+}
+
+%warning-btn {
+    @extend %btn;
+    padding: 10px 35px;
+    background-color: $lightBlue;
+    border: 2px solid $lightBlue;
+    color: snow;
+
+    
+
+    &:active {
+        transform: scale(0.8);
+    }
+}
+
+%info-btn {
+    @extend %btn;
+    padding: 10px 20px;
+    background-color: $lightBlue;
+    border: none;
+    color: snow;
+    border-radius: 30px;
+    width: 300px;
+    height: 45px;
+
+    &:active {
+        transform: scale(0.8);
+    }
+}

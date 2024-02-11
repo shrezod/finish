@@ -1,11 +1,19 @@
-import AllComponents from "./components/AllComponents"
+import './index.scss'
+// import About from './components/About'
+// import Navigation from './components/Navigation'
+import AllComponents from './components/AllComponents';
+
 import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
+      
       <BrowserRouter>
-        <AllComponents />
+
+<AllComponents />
+        {/* <Navigation />
+        <About /> */}
       </BrowserRouter>
     </div>
   );
