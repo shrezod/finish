@@ -95,7 +95,6 @@ function CarouselComponent() {
                             <b>Иван Иванов</b>
                             <br />
                             <Link to={'/third'} onClick={goToTeamsHash} >
-                                <button>HHH</button>
                             </Link>
                             <br />
                             <br />
