@@ -27,15 +27,6 @@ function ContactsForm() {
     function submit(e) {
         e.preventDefault()
         emailjs.send('service_4n1fris', 'template_gzhw5d5', templateParams, '3HB9qa4M2SQc2pglx')
-            .then((response) => {
-                toast.success(`Successfully sent!`, {
-                    theme: "dark"
-                })
-            }, (err) => {
-                toast.error(`Ooops! Something went wrong. try again`, {
-                    theme: "dark"
-                })
-            });
         e.target.reset()
     }
  
