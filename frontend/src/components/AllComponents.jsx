@@ -2,7 +2,7 @@ import { useLocation, Route, Routes } from 'react-router-dom'
 import Navigation from "./Navigation"
 import About from "./About"
 import Blog from "./Blog"
-import Third from './Third-page'
+import Third from './Third'
 function AllComponents(props) {
     const location = useLocation()
     return (
